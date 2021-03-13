@@ -1,7 +1,7 @@
 "use strict";
 
 const express = require("express");
-const logger = require("morgan");
+// const logger = require("morgan");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 
@@ -18,7 +18,7 @@ const app = express();
 connectDatabase.connectDatabase();
 
 // Middlewares
-app.use(logger("dev"));
+// app.use(logger("dev"));
 //parser requests of content-type - application/json
 app.use(bodyParser.json());
 
