@@ -1,0 +1,35 @@
+{
+  "name": "api_order",
+  "version": "1.0.0",
+  "description": "api app đặt món ăn",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tranvanquana1/api_order.git"
+  },
+  "author": "Quantv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tranvanquana1/api_order/issues"
+  },
+  "homepage": "https://gitlab.com/tranvanquana1/api_order#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13",
+    "socket.io": "^3.1.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
